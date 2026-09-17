@@ -10,8 +10,7 @@ Implemented a minimal tool-using agent loop using the Hugging Face Inference API
 
 ### Architecture
 
-User Request
-    ↓
+User Request ->
 LLM
     ↓
 Action Selection
