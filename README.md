@@ -10,18 +10,7 @@ Implemented a minimal tool-using agent loop using the Hugging Face Inference API
 
 ### Architecture
 
-User Request ->
-LLM
-    ↓
-Action Selection
-    ↓
-Application Executes Tool
-    ↓
-Observation
-    ↓
-LLM Continues
-    ↓
-Final Answer
+User Request -> LLM -> Action Selection -> Application Executes Tool -> Observation -> LLM Continues -> Final Answer
 
 ### Key Engineering Insight
 
