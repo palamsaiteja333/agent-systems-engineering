@@ -4,7 +4,7 @@ Hands-on experiments focused on understanding how AI agents work under the hood 
 
 The goal of this repository is to explore agent architecture from first principles before moving into higher-level frameworks such as smolagents, LangGraph, RAG, MCP, and agent evaluation.
 
-## Experiment 01 — Agent Loop From Scratch
+## Experiment 01 - Agent Loop From Scratch
 
 Implemented a minimal tool-using agent loop using the Hugging Face Inference API.
 
