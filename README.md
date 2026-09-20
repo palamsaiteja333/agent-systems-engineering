@@ -29,6 +29,28 @@ The execution boundary should instead be:
 
 To enforce this, generation is stopped before `Observation:`, the application executes the tool, and the real result is appended back to the conversation.
 
+# Tool-Using Agent with smolagents
+
+This experiment explores how an agent framework abstracts
+the manual Thought → Action → Observation execution loop.
+
+## Objective
+
+Build an agent capable of deciding when to call enterprise
+tools, executing those tools, observing the results, and
+continuing until it can answer the user's request.
+
+## Tools
+
+- Inventory lookup
+- Order status lookup
+
+## Key concept
+
+The LLM determines which capability is required, while
+application code performs the actual operation and returns
+the authoritative result.
+
 ### Technologies
 
 - Python
